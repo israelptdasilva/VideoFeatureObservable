@@ -3,7 +3,7 @@ import Vision
 import UIKit
 
 
-/// Protocol that fetches VNBarcodeObservation. Conforms to VideoFeatureObservable.
+/// Protocol that fetches VNRectangleObservation. Conforms to VideoFeatureObservable.
 protocol RectangleObservable: VideoFeatureObservable {
     func didFindRectangle(box: CGRect)
 }
